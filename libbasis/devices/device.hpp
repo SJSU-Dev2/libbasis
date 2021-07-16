@@ -15,7 +15,7 @@ class DeviceDriver : sjsu::Module<>
   ///
   /// @param new_value1 - a new value to assign to value, must be below 100
   /// @throws std::range_error if new_value is above 100
-  void Set_Value1(int new_value1)
+  void SetValue1(int new_value1)
   {
     if (new_value1 > 100)
     {

@@ -1,0 +1,14 @@
+# All Style settings supported by 'ncc'
+ClassName: 'C.*'
+CppMethod: '[A-Z].*'
+VariableName:
+    ScopePrefix:
+        Global: 'g_'
+        Static: 's_'
+        ClassMember: 'm_'
+    DataTypePrefix:
+        String: 'str'
+        Integer: 'n'
+        Bool: 'b'
+        Pointer: 'p'
+    Pattern: '^.*$'
